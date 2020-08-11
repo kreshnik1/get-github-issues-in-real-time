@@ -1,0 +1,32 @@
+
+<div class="main">
+
+    <div class="floatleft">
+		<h3>All Issues</h3>
+		<hr/>
+		{{#each repos}}
+		<div  id="{{id}}">
+		  <div class="card border-success mb-3" >
+			  <div class="card-header" id='title{{id}}'>
+				  <h6>{{title}}</h6>
+				  
+			  </div>
+			  <div class="card-body text-success">
+				<p class="card-text" id="content{{id}}">Content : <span id="text">{{content}}</span></p>
+				  <p class="card-text">User : <span id="text">{{user}}</span></p>
+				  <p class="card-text" id="comment{{id}}">Number of comments : <span id="text">{{comments}}</span></p>
+				  <p class="card-text">Url : <a href="https://github.com/1dv523/ka222sd-examination-3/issues/{{url}}" target= "_blank">https://github.com/1dv523/ka222sd-examination-3/issues/{{url}}</a></p>
+				  <p class="card-text">Created at : <span id="text">{{date}}</span></p>  
+			  </div>
+			</div>
+		</div>
+		{{/each}}
+	</div>
+    <div class="floatright">
+		<h3>Notifications</h3>
+		<hr/>
+		<div class = "notification">
+			
+	</div>
+	</div>
+   <script  src="/js/script.js"></script>

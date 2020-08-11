@@ -1,0 +1,44 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1dv523/ka222sd-examination-3.git"
+  },
+  "author": "Kreshnik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1dv523/ka222sd-examination-3/issues"
+  },
+  "homepage": "https://github.com/1dv523/ka222sd-examination-3#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.4",
+    "express-csp-header": "^2.1.0",
+    "express-github-webhook": "^1.0.6",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "express-validator": "^4.3.0",
+    "file-system": "^2.2.2",
+    "github": "^13.0.1",
+    "github-api": "^3.0.0",
+    "github-webhook-handler": "^0.7.1",
+    "githubhook": "^1.9.3",
+    "helmet": "^3.9.0",
+    "helmet-csp": "^2.6.0",
+    "https": "^1.0.0",
+    "mongoose": "^4.4.3",
+    "octonode": "^0.9.1",
+    "socket.io": "^2.0.4",
+    "x-xss-protection": "^1.0.0"
+  }
+}
